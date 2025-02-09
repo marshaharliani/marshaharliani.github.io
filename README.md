@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -6,7 +5,7 @@
     <title>marsha's web!</title>
     <style>
         body {
-            background-color: yellow;
+            background-color: blue;
             display: flex;
             justify-content: center;
             align-items: center;
