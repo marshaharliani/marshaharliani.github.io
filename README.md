@@ -5,7 +5,7 @@
     <title>marsha's web!</title>
     <style>
         body {
-            background-color: blue;
+            background-color: white;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -15,7 +15,7 @@
         }
         h1 {
             color: black;
-            font-size: 36px;
+            font-size: 30px;
         }
     </style>
 </head>
