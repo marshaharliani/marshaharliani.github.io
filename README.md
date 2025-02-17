@@ -25,6 +25,6 @@
     </style>
 </head>
 <body>
-    <div class="marquee">Halo! Ini teks berjalan 🚀</div>
+    <div class="marquee">Halo! selamat datang di web marsha, enjoy 🚀</div>
 </body>
 </html>
