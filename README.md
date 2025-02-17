@@ -1,26 +1,30 @@
+<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>marsha's web!</title>
+    <title>Animasi Teks</title>
     <style>
-        body {
-            background-color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            font-family: Arial, sans-serif;
-            text-align: center;
+        .marquee {
+            font-size: 24px;
+            font-weight: bold;
+            white-space: nowrap;
+            overflow: hidden;
+            display: inline-block;
+            animation: marquee 5s linear infinite;
         }
-        h1 {
-            color: black;
-            font-size: 30px;
+
+        @keyframes marquee {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+                transform: translateX(-100%);
+            }
         }
     </style>
 </head>
 <body>
-    <h1>Hi, welcome to marsha's web!</h1>
-    <h1>Have a nice day, enjoy!</h1>
+    <div class="marquee">Halo! Ini teks berjalan 🚀</div>
 </body>
 </html>
