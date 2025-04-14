@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Beranda - Webku</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Tentang Kami</a></li>
+        <li><a href="#">Galeri</a></li>
+        <li><a href="#">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Selamat Datang di Website Kami!</h1>
+    <p>Temukan info menarik dan karya terbaik kami.</p>
+    <img src="gambar/foto-utama.jpg" alt="Foto Utama" />
+  </section>
+
+  <!-- Video Animasi -->
+  <section class="video">
+    <h2>Video Animasi Kami</h2>
+    <video controls width="600">
+      <source src="video/animasi.mp4" type="video/mp4">
+      Browser Anda tidak mendukung pemutar video.
+    </video>
+  </section>
+
+  <!-- Galeri Foto -->
+  <section class="galeri">
+    <h2>Galeri</h2>
+    <div class="foto-grid">
+      <img src="gambar/foto1.jpg" alt="Foto 1">
+      <img src="gambar/foto2.jpg" alt="Foto 2">
+      <img src="gambar/foto3.jpg" alt="Foto 3">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Webku. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
