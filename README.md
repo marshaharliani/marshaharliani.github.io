@@ -19,6 +19,25 @@
       background-color: #87CEFA; /* Warna Biru Langit */
     }
 
+    /* Styling Animasi untuk Teks "Selamat datang di web saya" */
+    .welcome-text {
+      font-size: 3rem;
+      color: #4CAF50; /* Warna hijau */
+      text-align: center;
+      margin-top: 50px;
+      animation: moveText 5s linear infinite;
+    }
+
+    /* Animasi bergerak dari kiri ke kanan */
+    @keyframes moveText {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(100%);
+      }
+    }
+
     nav {
       background-color: #333;
       padding: 10px;
@@ -63,11 +82,17 @@
 </head>
 <body>
 
+<!-- BAGIAN Animasi Teks "Selamat datang di web saya" -->
+<div class="welcome-text">
+  Selamat datang di web saya!
+</div>
+
 <!-- NAVIGASI -->
 <nav>
   <a href="#gambar">Gambar</a>
   <a href="#dokumen">Makalah</a>
   <a href="#spotify">Spotify</a>
+  <a href="#youtube">YouTube Video</a> <!-- Menambahkan link untuk YouTube -->
 </nav>
 
 <!-- BAGIAN Gambar -->
@@ -87,11 +112,25 @@
 <section id="spotify">
   <h2>🎧 Spotify</h2>
   <!-- Embed Spotify Track -->
- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/44qlcokPO2RjD8791ohJFR?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/44qlcokPO2RjD8791ohJFR?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  
   <!-- Tombol untuk buka Spotify -->
   <br><br>
   <a href="https://open.spotify.com/track/4cOdyWpLr2l5OmlsREigxk" target="_blank" class="spotify-btn">Dengarkan di Spotify</a>
+</section>
+
+<!-- BAGIAN YouTube -->
+<section id="youtube">
+  <h2>🎬 Video Fav</h2>
+  <!-- Embed video YouTube -->
+  <iframe width="560" height="315" 
+          src="https://www.youtube.com/embed/0yzxJz-hHcc?si=u7UbulQhzt64wu4S" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" 
+          allowfullscreen>
+  </iframe>
 </section>
 
 </body>
