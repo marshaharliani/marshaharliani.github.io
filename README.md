@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
@@ -22,7 +22,7 @@
     /* Styling Animasi untuk Teks "Selamat datang di web saya" */
     .welcome-text {
       font-size: 3rem;
-      color: #4CAF50; /* Warna hijau */
+      color: white; /* Mengubah warna teks menjadi putih */
       text-align: center;
       margin-top: 50px;
       animation: moveText 5s linear infinite;
@@ -40,9 +40,10 @@
 
     nav {
       background-color: #333;
-      padding: 10px;
+      padding: 15px;
       position: sticky;
       top: 0;
+      z-index: 100;
     }
 
     nav a {
@@ -50,10 +51,13 @@
       text-decoration: none;
       margin-right: 15px;
       font-weight: bold;
+      padding: 10px;
     }
 
     nav a:hover {
       text-decoration: underline;
+      background-color: #555;
+      border-radius: 5px;
     }
 
     section {
@@ -77,6 +81,10 @@
     }
     .spotify-btn:hover {
       background-color: #1ed760;
+    }
+
+    iframe {
+      border-radius: 12px;
     }
   </style>
 </head>
@@ -110,9 +118,9 @@
 
 <!-- BAGIAN Spotify -->
 <section id="spotify">
-  <h2>🎧 Spotify</h2>
+  <h2>🎧 LISTEN TO THIS BANGER</h2>
   <!-- Embed Spotify Track -->
-  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/44qlcokPO2RjD8791ohJFR?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  <iframe src="https://open.spotify.com/embed/track/44qlcokPO2RjD8791ohJFR?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen=""></iframe>
   
   <!-- Tombol untuk buka Spotify -->
   <br><br>
@@ -121,17 +129,7 @@
 
 <!-- BAGIAN YouTube -->
 <section id="youtube">
-  <h2>🎬 Video Fav</h2>
+  <h2>🎬 MY FAV VIDEO</h2>
   <!-- Embed video YouTube -->
   <iframe width="560" height="315" 
-          src="https://www.youtube.com/embed/0yzxJz-hHcc?si=u7UbulQhzt64wu4S" 
-          title="YouTube video player" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          referrerpolicy="strict-origin-when-cross-origin" 
-          allowfullscreen>
-  </iframe>
-</section>
-
-</body>
-</html>
+          src="https
