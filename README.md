@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contoh Web GitHub</title>
+  <title>WEB MARSHA</title>
 </head>
 <body>
   <h1>Media di GitHub</h1>
