@@ -27,11 +27,13 @@
     Browser kamu tidak mendukung audio.
   </audio>
 
-  <!-- Dokumen PDF -->
-  <h2>Dokumen PDF</h2>
-  <embed src="assets/docs/laporan.pdf" type="application/pdf" width="100%" height="500px" />
+  <h2>Ujian Tengah Semester SISMUL</h2>
 
-  <!-- Link download -->
-  <p><a href="assets/docs/laporan.pdf" download>Download PDF</a></p>
+<!-- Tampilkan langsung di browser -->
+<embed src="assets/docs/ujian-tengah-semester-sismul.pdf" type="application/pdf" width="100%" height="500px" />
+
+<!-- Atau buat link download -->
+<p><a href="assets/docs/ujian-tengah-semester-sismul.pdf" download>Download UTS SISMUL (PDF)</a></p>
+
 </body>
 </html>
