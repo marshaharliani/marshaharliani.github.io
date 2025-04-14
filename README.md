@@ -131,5 +131,4 @@
 <section id="youtube">
   <h2>🎬 MY FAV VIDEO</h2>
   <!-- Embed video YouTube -->
-  <iframe width="560" height="315" 
-          src="https
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/0yzxJz-hHcc?si=u7UbulQhzt64wu4S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
