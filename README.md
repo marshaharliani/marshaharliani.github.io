@@ -4,14 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>UTS Sistem Multimedia</title>
+  
+  <!-- Mengimpor font Poppins dari Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
   <style>
     html {
       scroll-behavior: smooth;
     }
 
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Poppins', sans-serif; /* Menggunakan font Poppins */
       margin: 0;
+      background-color: #87CEFA; /* Warna Biru Langit */
     }
 
     nav {
@@ -61,7 +66,6 @@
 <!-- NAVIGASI -->
 <nav>
   <a href="#gambar">Gambar</a>
-  <a href="#suara">Suara</a>
   <a href="#dokumen">Makalah</a>
   <a href="#spotify">Spotify</a>
 </nav>
@@ -70,15 +74,6 @@
 <section id="gambar">
   <h2>📷 Gambar</h2>
   <img src="assets/images/ur.jpg" alt="Foto Profil" width="300">
-</section>
-
-<!-- BAGIAN Suara -->
-<section id="suara">
-  <h2>🔊 Suara</h2>
-  <audio controls>
-    <source src="assets/audio/suara-pembukaan.mp3" type="audio/mpeg">
-    Browser tidak mendukung audio.
-  </audio>
 </section>
 
 <!-- BAGIAN Dokumen -->
