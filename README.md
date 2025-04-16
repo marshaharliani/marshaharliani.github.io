@@ -112,8 +112,8 @@
 <!-- BAGIAN Dokumen -->
 <section id="dokumen">
   <h2>📄 Makalah</h2>
-  <embed src="assets/docs/SISMUL_UTS.pdf" type="application/pdf" width="100%" height="500px" />
-  <p><a href="assets/docs/SISMUL_UTS.pdf" download>Download Makalah</a></p>
+  <embed src="assets/docs/UTS_SISMUL_FIX.pdf" type="application/pdf" width="100%" height="500px" />
+  <p><a href="assets/docs/UTS_SISMUL_FIX.pdf" download>Download Makalah</a></p>
 </section>
 
 <!-- BAGIAN Spotify -->
