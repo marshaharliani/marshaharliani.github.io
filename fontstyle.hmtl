@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Preview Font</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      padding: 30px;
+      background-color: #f0f0f0;
+      font-size: 20px;
+      font-family: sans-serif;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      text-align: center;
+      font-size: 24px;
+    }
+    .arial { font-family: Arial, sans-serif; }
+    .times { font-family: "Times New Roman", Times, serif; }
+    .calibri { font-family: Calibri, sans-serif; }
+    .garamond { font-family: Garamond, serif; }
+    .comic { font-family: "Comic Sans MS", cursive, sans-serif; }
+    .roboto { font-family: 'Roboto', sans-serif; }
+    .cambria { font-family: Cambria, serif; }
+    .georgia { font-family: Georgia, serif; }
+    .helvetica { font-family: Helvetica, sans-serif; }
+    .verdana { font-family: Verdana, sans-serif; }
+  </style>
+</head>
+<body>
+  <h1>Preview Jenis Font</h1>
+  <div class="grid">
+    <div class="card arial">Arial</div>
+    <div class="card times">Times New Roman</div>
+    <div class="card calibri">Calibri</div>
+    <div class="card garamond">Garamond</div>
+    <div class="card comic">Comic Sans MS</div>
+    <div class="card roboto">Roboto</div>
+    <div class="card cambria">Cambria</div>
+    <div class="card georgia">Georgia</div>
+    <div class="card helvetica">Helvetica</div>
+    <div class="card verdana">Verdana</div>
+  </div>
+</body>
+</html>
